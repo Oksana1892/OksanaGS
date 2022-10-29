@@ -13,8 +13,8 @@
 
 // console.log(typeof ageToString);
 
-// const nullValue = null;
-// console.log(typeof nullValue);
+const nullValue = null;
+console.log(Number (nullValue));
 
 // console.log(Boolean(''));
 // console.log(Boolean(0));
@@ -111,4 +111,7 @@ console.log(films[9-1]);
 const lastIndex = films.length - 1;
 console.log(lastIndex);
 console.log(films[lastIndex]);
+
+
+
 
