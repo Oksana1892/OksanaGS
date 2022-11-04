@@ -30,14 +30,13 @@
 // const A = 10;
 // const B = 50;
 // const C = 30;
+
 // if (A < B) {
 //     B < C 
-//     ? console.log('C самый большой')
-//     : console.log('B самый большой')
+//     ? console.log('C самый большой'): console.log('B самый большой')
 // } else  {
 //     A < C 
-//     ? console.log('C самый большой')
-//     : console.log('A самый большой')
+//     ? console.log('C самый большой'): console.log('A самый большой')
 // } 
 
 // const userRole = 'Admin';
@@ -87,9 +86,71 @@
 // } else  {
 //     console.log('пекло');
 // }
-let i = 0;
-while(i < 100) {
+// let i = 0;
+// while(i < 100) {
+//     console.log(i);
+//     i += 1;
+// }
+
+// let i = 0;
+// do {
+//     console.log(i);
+// } while (false);
+
+// let i = 0;
+
+// for (; i < 3; i++) {
+//     console.log(i);
+// }
+
+// let i = 0;
+// while (true) {
+//     if (i < 30) {
+//         i += 1;
+//     } else {
+//         break;
+//     }
+//     console.log(i);
+// }
+
+for (let i = 0; i <= 5; i += 1) {
+    if (i === 1 || i === 3) continue
     console.log(i);
-    i += 1;
+}
+
+// const arr = [1, 3, 5, 6, 9, 12, 14, 16, 18, 21, 25, 65, 37];
+// const result = [];
+
+// for (let i = 0; i < arr.length; i += 1) {
+//     if (arr[i] % 2 === 0){
+//         result.push(arr[i]);
+//     } 
+// }
+// console.log(result);
+
+// const arr = [1, 3, 5, 6, 9, 12, 14, 16, 18, 21, 25, 65, 37];
+// const result = [];
+
+// for (let i = 0; i < arr.length; i += 1) {
+//     if (arr[i] % 2 !== 0){
+//         result.push(arr[i]);
+//     } 
+// }
+// console.log(result);
+
+// const text = "Hello";
+// const count = 5;
+
+// for (let i = 0; i < count; i += 1) {
+//     console.log(text);
+// }
+
+const text = "Hello";
+const count = 5;
+
+let i = 0;
+while (i < count){
+    console.log(text);
+    i+=1;
 }
 
